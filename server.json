@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.ParvenuDev/parvenu",
+  "title": "Parvenu",
+  "description": "B2B lead sourcing and enrichment: lead lists with verified emails, LinkedIn and company data.",
+  "version": "1.0.0",
+  "websiteUrl": "https://parvenu.io",
+  "repository": {
+    "url": "https://github.com/ParvenuDev/parvenu-mcp-server",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://enterprise.parvenu.io/mcp"
+    }
+  ]
+}
